@@ -15,6 +15,7 @@
 		F2F46F361E0EB33E002222CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2F46F341E0EB33E002222CA /* LaunchScreen.storyboard */; };
 		F2F46F411E0EB33E002222CA /* MultiLineTextFieldDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F46F401E0EB33E002222CA /* MultiLineTextFieldDemoTests.m */; };
 		F2F46F4C1E0EB33E002222CA /* MultiLineTextFieldDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F46F4B1E0EB33E002222CA /* MultiLineTextFieldDemoUITests.m */; };
+		F2F46F5C1E0EB389002222CA /* TVPlaceholder.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F46F5B1E0EB389002222CA /* TVPlaceholder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F2F46F471E0EB33E002222CA /* MultiLineTextFieldDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiLineTextFieldDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2F46F4B1E0EB33E002222CA /* MultiLineTextFieldDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiLineTextFieldDemoUITests.m; sourceTree = "<group>"; };
 		F2F46F4D1E0EB33E002222CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2F46F5A1E0EB389002222CA /* TVPlaceholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVPlaceholder.h; sourceTree = "<group>"; };
+		F2F46F5B1E0EB389002222CA /* TVPlaceholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVPlaceholder.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		F2F46F251E0EB33E002222CA /* MultiLineTextFieldDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F2F46F591E0EB389002222CA /* TVPlaceholder */,
 				F2F46F291E0EB33E002222CA /* AppDelegate.h */,
 				F2F46F2A1E0EB33E002222CA /* AppDelegate.m */,
 				F2F46F2C1E0EB33E002222CA /* ViewController.h */,
@@ -138,6 +142,15 @@
 				F2F46F4D1E0EB33E002222CA /* Info.plist */,
 			);
 			path = MultiLineTextFieldDemoUITests;
+			sourceTree = "<group>";
+		};
+		F2F46F591E0EB389002222CA /* TVPlaceholder */ = {
+			isa = PBXGroup;
+			children = (
+				F2F46F5A1E0EB389002222CA /* TVPlaceholder.h */,
+				F2F46F5B1E0EB389002222CA /* TVPlaceholder.m */,
+			);
+			path = TVPlaceholder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,6 +292,7 @@
 				F2F46F2E1E0EB33E002222CA /* ViewController.m in Sources */,
 				F2F46F2B1E0EB33E002222CA /* AppDelegate.m in Sources */,
 				F2F46F281E0EB33E002222CA /* main.m in Sources */,
+				F2F46F5C1E0EB389002222CA /* TVPlaceholder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
